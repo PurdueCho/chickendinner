@@ -1,5 +1,6 @@
 # Winner Winner Chicken Dinner
 
+**This is the Project for Esports Data Hackathon: 24 Hours Challenge**
 This is a prototype model for more enjoying the live Esport match with the visually analyzed data. 
 When going the matches, the server request live game statistics to analyze them in real time to to present the current dominant team intuitively.
 
