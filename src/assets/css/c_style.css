@@ -1,0 +1,2724 @@
+@import url("https://lolstatic-a.akamaihd.net/awesomefonts/1.0.0/lol-fonts.css");
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=aa5057cd-9af8-4717-b4bf-02ab591e984f");
+/* line 5, ../../scss/sass/_fonts.scss */
+html body {
+  font-family: "Spiegel";
+  line-height: 1.5em;
+}
+
+/* line 1, ../../scss/sass/_tooltip.scss */
+.codex-tooltip {
+  position: absolute;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  z-index: 999999;
+  padding: 5px 5px 2px 5px;
+  display: none;
+}
+
+@-webkit-keyframes $animation-name {
+  0%, 30% {
+    opacity: 0;
+  }
+  40%, 90% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes $animation-name {
+  0%, 30% {
+    opacity: 0;
+  }
+  40%, 90% {
+    opacity: 1;
+  }
+}
+@-o-keyframes $animation-name {
+  0%, 30% {
+    opacity: 0;
+  }
+  40%, 90% {
+    opacity: 1;
+  }
+}
+@keyframes $animation-name {
+  0%, 30% {
+    opacity: 0;
+  }
+  40%, 90% {
+    opacity: 1;
+  }
+}
+/* line 6, ../../scss/sass/_data-dragon.scss */
+.rg-box-tooltip {
+  -webkit-animation-delay: 0s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: toolfade;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-delay: 0s;
+  -moz-animation-duration: 2s;
+  -moz-animation-name: toolfade;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-delay: 0s;
+  -o-animation-duration: 2s;
+  -o-animation-name: toolfade;
+  -o-animation-fill-mode: forwards;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-name: toolfade;
+  animation-fill-mode: forwards;
+}
+/* line 7, ../../scss/sass/_data-dragon.scss */
+.rg-box-tooltip[class*='rg-display-champion'] {
+  width: auto;
+}
+/* line 9, ../../scss/sass/_data-dragon.scss */
+.rg-box-tooltip[class*='rg-display-champion'] .info {
+  width: auto;
+}
+/* line 11, ../../scss/sass/_data-dragon.scss */
+.rg-box-tooltip[class*='rg-display-champion'] .info .name {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* line 3, ../../scss/sass/_match-history.scss */
+#match-history-container .income,
+.match-history-list .income {
+  position: relative;
+}
+/* line 6, ../../scss/sass/_match-history.scss */
+#match-history-container .income .income-gold,
+.match-history-list .income .income-gold {
+  height: 37px;
+}
+/* line 10, ../../scss/sass/_match-history.scss */
+#match-history-container .income .income-minions,
+.match-history-list .income .income-minions {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  right: 0;
+}
+
+/* line 19, ../../scss/sass/_match-history.scss */
+.match-filter-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 24, ../../scss/sass/_match-history.scss */
+.match-filter-context {
+  text-align: right;
+}
+
+/* line 28, ../../scss/sass/_match-history.scss */
+.match-filter-context-header {
+  font-size: 1.0em;
+  margin-bottom: 6px;
+  text-decoration: underline;
+}
+
+/* line 34, ../../scss/sass/_match-history.scss */
+.match-filter-context-text {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* line 39, ../../scss/sass/_match-history.scss */
+.match-filter-text-wrapper > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 44, ../../scss/sass/_match-history.scss */
+.match-filter-context-hidden {
+  color: #b4b4b4;
+}
+
+/* line 48, ../../scss/sass/_match-history.scss */
+.disabled-friends {
+  padding-bottom: 4px;
+}
+
+/* line 52, ../../scss/sass/_match-history.scss */
+#disabled-friends-img {
+  height: 16px;
+}
+
+/* line 2, ../../scss/sass/game/_header.scss */
+.game-header span {
+  display: block;
+}
+/* line 6, ../../scss/sass/game/_header.scss */
+.game-header .content-border {
+  border-bottom: 0;
+}
+/* line 12, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-icon,
+.game-header .map-header .player-header-icon,
+.game-header .player-header .map-header-icon,
+.game-header .player-header .player-header-icon {
+  float: left;
+}
+/* line 16, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-icon img,
+.game-header .map-header .player-header-icon img,
+.game-header .player-header .map-header-icon img,
+.game-header .player-header .player-header-icon img {
+  height: 75px;
+}
+/* line 21, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-content,
+.game-header .map-header .player-header-content,
+.game-header .player-header .map-header-content,
+.game-header .player-header .player-header-content {
+  margin-top: 3px;
+  margin-left: 5px;
+  line-height: 1em;
+  float: left;
+}
+/* line 28, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-content .map-header-name,
+.game-header .map-header .map-header-content .player-header-name,
+.game-header .map-header .player-header-content .map-header-name,
+.game-header .map-header .player-header-content .player-header-name,
+.game-header .player-header .map-header-content .map-header-name,
+.game-header .player-header .map-header-content .player-header-name,
+.game-header .player-header .player-header-content .map-header-name,
+.game-header .player-header .player-header-content .player-header-name {
+  font-size: 38px;
+  line-height: 38px;
+}
+/* line 34, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-content .map-header-mode,
+.game-header .map-header .map-header-content .player-header-mode,
+.game-header .map-header .player-header-content .map-header-mode,
+.game-header .map-header .player-header-content .player-header-mode,
+.game-header .player-header .map-header-content .map-header-mode,
+.game-header .player-header .map-header-content .player-header-mode,
+.game-header .player-header .player-header-content .map-header-mode,
+.game-header .player-header .player-header-content .player-header-mode {
+  clear: left;
+  font-size: 18px;
+  line-height: 18px;
+}
+/* line 41, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-content .map-header-additional-details,
+.game-header .map-header .map-header-content .player-header-additional-details,
+.game-header .map-header .player-header-content .map-header-additional-details,
+.game-header .map-header .player-header-content .player-header-additional-details,
+.game-header .player-header .map-header-content .map-header-additional-details,
+.game-header .player-header .map-header-content .player-header-additional-details,
+.game-header .player-header .player-header-content .map-header-additional-details,
+.game-header .player-header .player-header-content .player-header-additional-details {
+  text-align: right;
+  font-size: 14px;
+  line-height: 14px;
+}
+/* line 47, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-content .map-header-additional-details .map-header-queue,
+.game-header .map-header .map-header-content .map-header-additional-details .player-header-queue,
+.game-header .map-header .map-header-content .player-header-additional-details .map-header-queue,
+.game-header .map-header .map-header-content .player-header-additional-details .player-header-queue,
+.game-header .map-header .player-header-content .map-header-additional-details .map-header-queue,
+.game-header .map-header .player-header-content .map-header-additional-details .player-header-queue,
+.game-header .map-header .player-header-content .player-header-additional-details .map-header-queue,
+.game-header .map-header .player-header-content .player-header-additional-details .player-header-queue,
+.game-header .player-header .map-header-content .map-header-additional-details .map-header-queue,
+.game-header .player-header .map-header-content .map-header-additional-details .player-header-queue,
+.game-header .player-header .map-header-content .player-header-additional-details .map-header-queue,
+.game-header .player-header .map-header-content .player-header-additional-details .player-header-queue,
+.game-header .player-header .player-header-content .map-header-additional-details .map-header-queue,
+.game-header .player-header .player-header-content .map-header-additional-details .player-header-queue,
+.game-header .player-header .player-header-content .player-header-additional-details .map-header-queue,
+.game-header .player-header .player-header-content .player-header-additional-details .player-header-queue {
+  float: left;
+  border-right: 1px solid #C0C0C0;
+  padding: 5px 5px 0px 0px;
+}
+/* line 54, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-content .map-header-additional-details .map-header-duration,
+.game-header .map-header .map-header-content .map-header-additional-details .player-header-duration,
+.game-header .map-header .map-header-content .player-header-additional-details .map-header-duration,
+.game-header .map-header .map-header-content .player-header-additional-details .player-header-duration,
+.game-header .map-header .player-header-content .map-header-additional-details .map-header-duration,
+.game-header .map-header .player-header-content .map-header-additional-details .player-header-duration,
+.game-header .map-header .player-header-content .player-header-additional-details .map-header-duration,
+.game-header .map-header .player-header-content .player-header-additional-details .player-header-duration,
+.game-header .player-header .map-header-content .map-header-additional-details .map-header-duration,
+.game-header .player-header .map-header-content .map-header-additional-details .player-header-duration,
+.game-header .player-header .map-header-content .player-header-additional-details .map-header-duration,
+.game-header .player-header .map-header-content .player-header-additional-details .player-header-duration,
+.game-header .player-header .player-header-content .map-header-additional-details .map-header-duration,
+.game-header .player-header .player-header-content .map-header-additional-details .player-header-duration,
+.game-header .player-header .player-header-content .player-header-additional-details .map-header-duration,
+.game-header .player-header .player-header-content .player-header-additional-details .player-header-duration {
+  float: left;
+  padding: 5px 5px 0px 5px;
+  border-right: 1px solid #C0C0C0;
+}
+/* line 61, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-content .map-header-additional-details .map-header-date,
+.game-header .map-header .map-header-content .map-header-additional-details .player-header-date,
+.game-header .map-header .map-header-content .player-header-additional-details .map-header-date,
+.game-header .map-header .map-header-content .player-header-additional-details .player-header-date,
+.game-header .map-header .player-header-content .map-header-additional-details .map-header-date,
+.game-header .map-header .player-header-content .map-header-additional-details .player-header-date,
+.game-header .map-header .player-header-content .player-header-additional-details .map-header-date,
+.game-header .map-header .player-header-content .player-header-additional-details .player-header-date,
+.game-header .player-header .map-header-content .map-header-additional-details .map-header-date,
+.game-header .player-header .map-header-content .map-header-additional-details .player-header-date,
+.game-header .player-header .map-header-content .player-header-additional-details .map-header-date,
+.game-header .player-header .map-header-content .player-header-additional-details .player-header-date,
+.game-header .player-header .player-header-content .map-header-additional-details .map-header-date,
+.game-header .player-header .player-header-content .map-header-additional-details .player-header-date,
+.game-header .player-header .player-header-content .player-header-additional-details .map-header-date,
+.game-header .player-header .player-header-content .player-header-additional-details .player-header-date {
+  float: left;
+  padding: 5px 5px 0px 5px;
+}
+/* line 67, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-content .map-header-additional-details .map-header-date-with-delta,
+.game-header .map-header .map-header-content .map-header-additional-details .player-header-date-with-delta,
+.game-header .map-header .map-header-content .player-header-additional-details .map-header-date-with-delta,
+.game-header .map-header .map-header-content .player-header-additional-details .player-header-date-with-delta,
+.game-header .map-header .player-header-content .map-header-additional-details .map-header-date-with-delta,
+.game-header .map-header .player-header-content .map-header-additional-details .player-header-date-with-delta,
+.game-header .map-header .player-header-content .player-header-additional-details .map-header-date-with-delta,
+.game-header .map-header .player-header-content .player-header-additional-details .player-header-date-with-delta,
+.game-header .player-header .map-header-content .map-header-additional-details .map-header-date-with-delta,
+.game-header .player-header .map-header-content .map-header-additional-details .player-header-date-with-delta,
+.game-header .player-header .map-header-content .player-header-additional-details .map-header-date-with-delta,
+.game-header .player-header .map-header-content .player-header-additional-details .player-header-date-with-delta,
+.game-header .player-header .player-header-content .map-header-additional-details .map-header-date-with-delta,
+.game-header .player-header .player-header-content .map-header-additional-details .player-header-date-with-delta,
+.game-header .player-header .player-header-content .player-header-additional-details .map-header-date-with-delta,
+.game-header .player-header .player-header-content .player-header-additional-details .player-header-date-with-delta {
+  float: left;
+  padding: 5px 5px 0px 5px;
+  border-right: 1px solid #C0C0C0;
+}
+/* line 74, ../../scss/sass/game/_header.scss */
+.game-header .map-header .map-header-content .map-header-additional-details .map-header-delta,
+.game-header .map-header .map-header-content .map-header-additional-details .player-header-delta,
+.game-header .map-header .map-header-content .player-header-additional-details .map-header-delta,
+.game-header .map-header .map-header-content .player-header-additional-details .player-header-delta,
+.game-header .map-header .player-header-content .map-header-additional-details .map-header-delta,
+.game-header .map-header .player-header-content .map-header-additional-details .player-header-delta,
+.game-header .map-header .player-header-content .player-header-additional-details .map-header-delta,
+.game-header .map-header .player-header-content .player-header-additional-details .player-header-delta,
+.game-header .player-header .map-header-content .map-header-additional-details .map-header-delta,
+.game-header .player-header .map-header-content .map-header-additional-details .player-header-delta,
+.game-header .player-header .map-header-content .player-header-additional-details .map-header-delta,
+.game-header .player-header .map-header-content .player-header-additional-details .player-header-delta,
+.game-header .player-header .player-header-content .map-header-additional-details .map-header-delta,
+.game-header .player-header .player-header-content .map-header-additional-details .player-header-delta,
+.game-header .player-header .player-header-content .player-header-additional-details .map-header-delta,
+.game-header .player-header .player-header-content .player-header-additional-details .player-header-delta {
+  float: left;
+  padding: 5px 5px 0px 5px;
+}
+/* line 84, ../../scss/sass/game/_header.scss */
+.game-header .controls span {
+  display: block;
+}
+/* line 88, ../../scss/sass/game/_header.scss */
+.game-header .controls .controls-share-call-to-action {
+  font-size: 17px;
+  line-height: 1.5em;
+  padding-right: 3px;
+  text-align: right;
+  float: right;
+}
+/* line 96, ../../scss/sass/game/_header.scss */
+.game-header .controls .controls-share-buttons {
+  clear: right;
+}
+/* line 99, ../../scss/sass/game/_header.scss */
+.game-header .controls .controls-share-buttons .share-button {
+  display: block;
+  float: right;
+  margin-right: 3px;
+  line-height: 32px;
+  height: 32px;
+  width: 32px;
+}
+/* line 108, ../../scss/sass/game/_header.scss */
+.game-header .controls .controls-share-buttons .facebook-share-button {
+  background-image: url("resources/images/sharing/facebook.png");
+}
+/* line 112, ../../scss/sass/game/_header.scss */
+.game-header .controls .controls-share-buttons .vk-button {
+  background-image: url("resources/images/sharing/vk.png");
+}
+/* line 116, ../../scss/sass/game/_header.scss */
+.game-header .controls .controls-share-buttons .tweet-button {
+  background-image: url("resources/images/sharing/twitter.png");
+  background-color: #55ACEE;
+}
+/* line 121, ../../scss/sass/game/_header.scss */
+.game-header .controls .controls-share-buttons .mail-button {
+  background-image: url("resources/images/sharing/mail.png");
+  margin-right: 0px;
+}
+/* line 127, ../../scss/sass/game/_header.scss */
+.game-header .controls .controls-color-blind {
+  margin-top: 7px;
+  font-size: 13px;
+  float: right;
+  line-height: .4em;
+  clear: right;
+}
+
+/* line 137, ../../scss/sass/game/_header.scss */
+.player-header {
+  margin-bottom: 20px;
+}
+/* line 140, ../../scss/sass/game/_header.scss */
+.player-header .player-header-icon img {
+  height: 51px;
+  float: left;
+}
+/* line 144, ../../scss/sass/game/_header.scss */
+.player-header .player-header-name {
+  margin-left: 5px;
+  font-size: 24px;
+  line-height: 51px;
+  float: left;
+}
+
+/* line 153, ../../scss/sass/game/_header.scss */
+.game-details .player-header {
+  margin-bottom: 0;
+}
+
+/* line 3, ../../scss/sass/game/_grid.scss */
+.game-grid table {
+  font-size: 13px;
+  margin-top: 0;
+}
+/* line 8, ../../scss/sass/game/_grid.scss */
+.game-grid table tr:first-child td {
+  text-align: center;
+  position: relative;
+  padding-top: 6px;
+}
+/* line 13, ../../scss/sass/game/_grid.scss */
+.game-grid table tr:first-child td .team-marker {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  right: -1px;
+  height: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+/* line 24, ../../scss/sass/game/_grid.scss */
+.game-grid table tr:first-child td.team-100 .team-marker {
+  background-color: #2747e8;
+  border-color: #2740c1 #2740c1 #1b3098;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+}
+/* line 32, ../../scss/sass/game/_grid.scss */
+.game-grid table tr:first-child td.team-200 .team-marker {
+  background-color: #cb2124;
+  border-color: #a11fb0 #a11fb0 #791885;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+}
+/* line 40, ../../scss/sass/game/_grid.scss */
+.game-grid table td {
+  text-align: center;
+  padding: 1px;
+}
+/* line 44, ../../scss/sass/game/_grid.scss */
+.game-grid table td:first-child {
+  text-align: left;
+}
+/* line 48, ../../scss/sass/game/_grid.scss */
+.game-grid table td img {
+  width: 30px;
+  height: 30px;
+}
+/* line 53, ../../scss/sass/game/_grid.scss */
+.game-grid table td.current-user {
+  background-color: #dcdcdc;
+}
+/* line 57, ../../scss/sass/game/_grid.scss */
+.game-grid table td.grid-label {
+  padding-left: 20px;
+}
+/* line 62, ../../scss/sass/game/_grid.scss */
+.game-grid table .team-100 {
+  background-color: #f5fafe;
+  width: 65px;
+}
+/* line 66, ../../scss/sass/game/_grid.scss */
+.game-grid table .team-100.current-user {
+  background-color: #dbeeff;
+}
+/* line 71, ../../scss/sass/game/_grid.scss */
+.game-grid table .team-200 {
+  background-color: #fff3f3;
+  width: 65px;
+}
+/* line 75, ../../scss/sass/game/_grid.scss */
+.game-grid table .team-200.current-user {
+  background-color: #f2d7d7;
+}
+
+/* line 1, ../../scss/sass/game/_summary.scss */
+.game-summary {
+  cursor: pointer;
+  cursor: hand;
+}
+/* line 5, ../../scss/sass/game/_summary.scss */
+.game-summary > div > div {
+  display: table;
+  width: 100%;
+}
+/* line 10, ../../scss/sass/game/_summary.scss */
+.game-summary > div > div > div {
+  display: table-row;
+}
+/* line 13, ../../scss/sass/game/_summary.scss */
+.game-summary > div > div > div > div {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+/* line 18, ../../scss/sass/game/_summary.scss */
+.game-summary > div > div > div > div:first-child {
+  padding-left: 0;
+}
+/* line 22, ../../scss/sass/game/_summary.scss */
+.game-summary.game-summary-victory > div {
+  background: #dff0d8;
+  border-right: 1px solid #C0D9B6;
+  border-bottom: 1px solid #C0D9B6;
+  border-top: 1px solid #F3FAF0;
+  border-left: 1px solid #F3FAF0;
+}
+/* line 29, ../../scss/sass/game/_summary.scss */
+.game-summary.game-summary-defeat > div {
+  background: #f2dede;
+  border-right: 1px solid #D9B6BB;
+  border-bottom: 1px solid #D9B6BB;
+}
+/* line 35, ../../scss/sass/game/_summary.scss */
+.game-summary .champion-icon {
+  width: 37px;
+}
+/* line 39, ../../scss/sass/game/_summary.scss */
+.game-summary .spell-book {
+  padding-left: 2px !important;
+  width: 19px;
+  line-height: 15px;
+}
+/* line 44, ../../scss/sass/game/_summary.scss */
+.game-summary .spell-book .spell-icon {
+  width: 17px;
+  height: 17px;
+  margin-top: 2px;
+}
+/* line 50, ../../scss/sass/game/_summary.scss */
+.game-summary .spell-book .spell-icon:first-child {
+  margin-top: 0;
+}
+/* line 55, ../../scss/sass/game/_summary.scss */
+.game-summary .name-container {
+  padding-left: 10px;
+}
+/* line 58, ../../scss/sass/game/_summary.scss */
+.game-summary .name-container .game-delta {
+  font-size: .75em;
+  line-height: 1.5em;
+}
+/* line 64, ../../scss/sass/game/_summary.scss */
+.game-summary .champion-nameplate .champion-nameplate-icon img {
+  width: 37px;
+  height: 37px;
+}
+/* line 70, ../../scss/sass/game/_summary.scss */
+.game-summary .champion-nameplate .champion-nameplate-level {
+  position: absolute;
+  top: 40px;
+  left: 22px;
+  color: #fff;
+  text-shadow: 1px 0px 2px #000;
+  font-weight: bold;
+}
+/* line 80, ../../scss/sass/game/_summary.scss */
+.game-summary .inventory {
+  width: 288px;
+}
+/* line 83, ../../scss/sass/game/_summary.scss */
+.game-summary .inventory .inventory-items {
+  margin-left: -2px;
+  height: 37px;
+}
+/* line 87, ../../scss/sass/game/_summary.scss */
+.game-summary .inventory .inventory-items .item-icon {
+  width: 37px;
+  height: 37px;
+}
+/* line 92, ../../scss/sass/game/_summary.scss */
+.game-summary .inventory .inventory-items img {
+  width: 37px;
+  height: 37px;
+}
+/* line 97, ../../scss/sass/game/_summary.scss */
+.game-summary .inventory .inventory-items > div > div {
+  padding-left: 2px;
+}
+/* line 103, ../../scss/sass/game/_summary.scss */
+.game-summary .inventory .inventory-trinket > div {
+  padding-left: 2px;
+}
+/* line 107, ../../scss/sass/game/_summary.scss */
+.game-summary .inventory .inventory-trinket img {
+  width: 37px;
+  height: 37px;
+}
+/* line 113, ../../scss/sass/game/_summary.scss */
+.game-summary .inventory .no-item {
+  height: 37px;
+  width: 37px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(84, 84, 84, 0.3);
+  border-top: 1px solid rgba(84, 84, 84, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+/* line 117, ../../scss/sass/game/_summary.scss */
+.game-summary .inventory .no-image {
+  height: 37px;
+  width: 37px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(84, 84, 84, 0.3);
+  border-top: 1px solid rgba(84, 84, 84, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+/* line 122, ../../scss/sass/game/_summary.scss */
+.game-summary .kda-plate {
+  text-align: center;
+  width: 85px;
+}
+/* line 126, ../../scss/sass/game/_summary.scss */
+.game-summary .kda-plate .kda-plate-badge {
+  font-size: .75em;
+  line-height: 1.5em;
+}
+/* line 132, ../../scss/sass/game/_summary.scss */
+.game-summary .game-summary-queue {
+  float: none !important;
+  clear: both;
+  margin-left: 0 !important;
+}
+/* line 138, ../../scss/sass/game/_summary.scss */
+.game-summary .income {
+  text-align: center;
+  width: 89px;
+}
+/* line 142, ../../scss/sass/game/_summary.scss */
+.game-summary .income > div {
+  position: relative;
+}
+/* line 146, ../../scss/sass/game/_summary.scss */
+.game-summary .income .income-minions {
+  font-size: .75em;
+  line-height: 1.5em;
+}
+/* line 150, ../../scss/sass/game/_summary.scss */
+.game-summary .income .income-minions img {
+  width: 14px;
+}
+/* line 156, ../../scss/sass/game/_summary.scss */
+.game-summary .mode {
+  width: 165px;
+}
+/* line 159, ../../scss/sass/game/_summary.scss */
+.game-summary .mode span {
+  display: block;
+}
+/* line 163, ../../scss/sass/game/_summary.scss */
+.game-summary .mode .map-mode-queue {
+  font-size: .75em;
+  line-height: 1.5em;
+}
+/* line 169, ../../scss/sass/game/_summary.scss */
+.game-summary .date-duration {
+  text-align: center;
+  width: 95px;
+}
+/* line 173, ../../scss/sass/game/_summary.scss */
+.game-summary .date-duration span {
+  display: block;
+}
+/* line 177, ../../scss/sass/game/_summary.scss */
+.game-summary .date-duration .date-duration-date {
+  font-size: .75em;
+  line-height: 1.5em;
+}
+/* line 183, ../../scss/sass/game/_summary.scss */
+.game-summary .game-summary-victory,
+.game-summary .game-summary-earlysurrender,
+.game-summary .game-summary-defeat {
+  display: block;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 10px;
+  bottom: 0;
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+}
+/* line 197, ../../scss/sass/game/_summary.scss */
+.game-summary .game-summary-victory {
+  background-color: #6ed56e;
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+/* line 205, ../../scss/sass/game/_summary.scss */
+.game-summary .game-summary-defeat {
+  background-color: #a63935;
+  border-color: #bd362f #bd362f #B53F3A;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.15);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+/* line 213, ../../scss/sass/game/_summary.scss */
+.game-summary .game-summary-earlysurrender {
+  background-color: #818181;
+  border-color: rgba(103, 105, 107, 0.57) #4a4c4e #2e3032;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.15);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+/* line 222, ../../scss/sass/game/_summary.scss */
+.game-summary > div:hover {
+  background-color: #dcdcdc;
+}
+
+/* line 4, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard {
+  margin-bottom: 20px;
+  font-size: 13px;
+  /* reverse everything for team 200 */
+}
+/* line 8, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .content-border {
+  border-top: 0;
+  padding-top: 0px;
+}
+/* line 13, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .champion-col {
+  width: 195px;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+/* line 18, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .kills-col {
+  width: 69px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #d7d7d7;
+}
+/* line 24, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .items-col {
+  width: 111px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #d7d7d7;
+}
+/* line 30, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .overcharge-kills-col,
+.scoreboard .minions-col,
+.scoreboard .score-col {
+  width: 43px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #d7d7d7;
+}
+/* line 38, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .energy-col,
+.scoreboard .gold-col,
+.scoreboard .rank-col {
+  width: 45px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/* line 45, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .lettergrade-col {
+  width: 88px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/* line 50, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .blank-col {
+  width: 88px;
+}
+/* line 56, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .champion-col {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+/* line 61, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .kills-col {
+  border-right: initial;
+  border-left: 1px solid #d7d7d7;
+}
+/* line 65, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .items-col {
+  border-right: initial;
+  border-left: 1px solid #d7d7d7;
+}
+/* line 69, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .overcharge-kills-col,
+.scoreboard .team-200 .minions-col,
+.scoreboard .team-200 .score-col {
+  border-right: initial;
+  border-left: 1px solid #d7d7d7;
+}
+/* line 79, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .team-marker {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  padding-left: 0;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #2747e8;
+  border-color: #2740c1 #2740c1 #1b3098;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+}
+/* line 92, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team > ul {
+  border-bottom: 1px solid #d7d7d7;
+  border-top: 1px solid #fff;
+}
+/* line 96, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team > ul li:last-child {
+  border-bottom: none;
+}
+/* line 102, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header > div {
+  padding: 0;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #d7d7d7;
+  background-color: #fff;
+}
+/* line 113, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer > div {
+  padding: 10px;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  background-color: #f5fafe;
+}
+/* line 123, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer .team-marker {
+  bottom: 0;
+  width: 5px;
+  height: 45px;
+  padding-left: 0;
+}
+/* line 130, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer .tower-kills,
+.scoreboard .team footer .inhibitor-kills,
+.scoreboard .team footer .rift-herald-kills,
+.scoreboard .team footer .dragon-kills,
+.scoreboard .team footer .vilemaw-kills,
+.scoreboard .team footer .baron-kills {
+  line-height: 21px;
+}
+/* line 138, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer .tower-kills img,
+.scoreboard .team footer .inhibitor-kills img,
+.scoreboard .team footer .rift-herald-kills img,
+.scoreboard .team footer .dragon-kills img,
+.scoreboard .team footer .vilemaw-kills img,
+.scoreboard .team footer .baron-kills img {
+  height: 21px;
+}
+/* line 142, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer .dominion-victory-score {
+  width: 50%;
+}
+/* line 148, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .vs {
+  position: absolute;
+  top: 0;
+  right: -20px;
+  height: 20px;
+  width: 20px;
+  background-image: url("resources/images/scoreboardicon_score.png");
+  background-repeat: no-repeat;
+  display: none;
+}
+/* line 159, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .team-summary {
+  border-bottom: 1px solid #d7d7d7;
+  margin-top: -10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+/* line 166, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .team-summary > div {
+  padding-left: 20px;
+}
+/* line 169, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .team-summary > div.gold {
+  padding-left: 23px;
+  text-align: right;
+  background-image: url("resources/images/scoreboardicon_gold.png");
+  background-position: 0 16px;
+  background-repeat: no-repeat;
+  padding-top: 16px;
+}
+/* line 177, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .team-summary > div.kills {
+  float: right;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 16px;
+}
+/* line 184, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .team-summary .team {
+  width: 25px;
+  height: 40px;
+  display: block;
+  background-image: url("resources/images/normal/scoreboardicon_gem_100.png");
+  background-position: 0 12px;
+  background-repeat: no-repeat;
+  margin-left: 28px;
+}
+/* line 194, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .team-summary .game-conclusion {
+  width: 200px;
+  font-size: 24px;
+  padding-top: 16px;
+}
+/* line 200, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .team-summary .team-marker {
+  top: 0;
+  width: 5px;
+  height: 42px;
+  padding-left: 0;
+}
+/* line 208, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar {
+  border-top: 1px solid #fff;
+  border-right: 1px solid #d7d7d7;
+  background-color: #f5fafe;
+}
+/* line 213, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar > div {
+  height: 25px;
+}
+/* line 216, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .champion {
+  background-image: url("resources/images/scoreboardicon_champion.png");
+  background-repeat: no-repeat;
+  background-position: 21px center;
+}
+/* line 222, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .kills {
+  background-image: url("resources/images/scoreboardicon_score.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 228, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .items {
+  background-image: url("resources/images/scoreboardicon_items.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 234, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .minions {
+  background-image: url("resources/images/scoreboardicon_minion.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 240, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .gold {
+  background-image: url("resources/images/scoreboardicon_gold.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 246, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .score {
+  background-image: url("resources/images/scoreboardicon_player_score.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 252, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .rank {
+  background-image: url("resources/images/scoreboardicon_rank.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 258, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .lettergrade {
+  background-image: url("resources/images/scoreboardicon_starguardian_lettergrade.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 264, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .energy {
+  background-image: url("resources/images/scoreboardicon_project_energy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 270, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .overcharge-kills {
+  background-image: url("resources/images/scoreboardicon_project_overcharge_kills.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 276, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team header .icon-bar .team-marker {
+  top: 43px;
+  height: 27px;
+  padding-left: 0;
+}
+/* line 284, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer {
+  text-align: center;
+}
+/* line 287, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer .bans-container {
+  width: 50%;
+}
+/* line 292, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer .bans > div {
+  float: left;
+  width: 21px;
+  margin-left: 2px;
+}
+/* line 297, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer .bans > div img {
+  width: 21px;
+}
+/* line 302, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team footer .bans .label {
+  width: auto;
+  margin-left: 0;
+}
+/* line 310, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #dbdfe0;
+  line-height: 46px;
+}
+/* line 316, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li > .player {
+  border-top: 0;
+  border-bottom: 0;
+  background-color: #f5fafe;
+  padding: 0;
+  float: left;
+}
+/* line 12, ../../scss/sass/_mixins.scss */
+.scoreboard .team .grid-list li > .player:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 324, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li > .player.current-user {
+  background-color: #dbeeff;
+  border-right: 4px solid #2747e8;
+  border-top: 4px solid #2747e8;
+  border-bottom: 4px solid #2747e8;
+}
+/* line 330, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li > .player.current-user > div {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+/* line 335, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li > .player.current-user .energy-col,
+.scoreboard .team .grid-list li > .player.current-user .gold-col,
+.scoreboard .team .grid-list li > .player.current-user .rank-col {
+  width: 41px;
+}
+/* line 340, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li > .player.current-user .lettergrade-col {
+  width: 84px;
+  padding-right: 1px;
+}
+/* line 344, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li > .player.current-user .blank-col {
+  width: 84px;
+}
+/* line 350, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li > div > div {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 357, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div {
+  float: left;
+}
+/* line 361, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div:first-child > .champion-nameplate {
+  margin-left: 0;
+}
+/* line 365, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div > .champion-nameplate {
+  margin-left: 10px;
+}
+/* line 368, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div > .champion-nameplate > div {
+  float: left;
+}
+/* line 372, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div > .champion-nameplate .champion-nameplate-icon {
+  width: 46px;
+}
+/* line 375, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div > .champion-nameplate .champion-nameplate-icon img {
+  width: 46px;
+}
+/* line 379, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div > .champion-nameplate .champion-nameplate-icon span {
+  position: absolute;
+  bottom: -5px;
+  left: 14px;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-weight: bold;
+}
+/* line 392, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div > .champion-nameplate .champion-nameplate-name {
+  width: 100px;
+  position: relative;
+  padding-top: 16px;
+  line-height: 15px;
+}
+/* line 398, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div > .champion-nameplate .champion-nameplate-name .summoner-long {
+  font-size: 11px;
+}
+/* line 402, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col > div > .champion-nameplate .champion-nameplate-name a {
+  text-decoration: none;
+}
+/* line 408, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col .spell-book {
+  padding-left: 2px !important;
+  width: 24px;
+  line-height: 22px;
+}
+/* line 414, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col .spell-book div img {
+  width: 22px;
+  margin-top: 1px;
+}
+/* line 421, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .champion-col .spell-book div:first-child img:first-child {
+  margin-top: 0;
+}
+/* line 429, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .kills-col .kda-kda {
+  width: 59px;
+  text-align: center;
+}
+/* line 436, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .items-col .inventory {
+  line-height: 20px;
+}
+/* line 439, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .items-col .inventory .inventory-items {
+  width: 73px;
+  margin-top: -2px;
+  float: left;
+}
+/* line 444, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .items-col .inventory .inventory-items > div > div {
+  padding-left: 2px;
+  padding-top: 2px;
+  height: 24px;
+}
+/* line 451, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .items-col .inventory img {
+  width: 22px;
+  height: 22px;
+}
+/* line 456, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .items-col .inventory .no-image {
+  height: 22px;
+  width: 22px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(84, 84, 84, 0.3);
+  border-top: 1px solid rgba(84, 84, 84, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+/* line 460, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .items-col .inventory .inventory-trinket {
+  float: left;
+  padding-top: 11px;
+  padding-left: 1px;
+}
+/* line 468, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .minions-col,
+.scoreboard .team .grid-list li .gold-col,
+.scoreboard .team .grid-list li .score-col,
+.scoreboard .team .grid-list li .energy-col,
+.scoreboard .team .grid-list li .overcharge-kills-col,
+.scoreboard .team .grid-list li .lettergrade-col,
+.scoreboard .team .grid-list li .rank-col {
+  text-align: center;
+}
+/* line 478, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team .grid-list li .team-marker {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  padding-left: 0;
+}
+/* line 490, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .team-marker {
+  background-color: #cb2124;
+  border-color: #a11fb0 #a11fb0 #791885;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+}
+/* line 497, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header > div {
+  border-right: 1px solid #d7d7d7;
+  border-left: 0;
+}
+/* line 504, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .gs-container,
+.scoreboard .team-200 footer .gs-container {
+  margin-left: 0;
+  margin-right: -20px;
+}
+/* line 508, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .gs-container > *,
+.scoreboard .team-200 footer .gs-container > * {
+  float: right;
+  padding-right: 20px;
+  padding-left: 0;
+}
+/* line 515, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .gs-no-gutter,
+.scoreboard .team-200 footer .gs-no-gutter {
+  margin-right: 0;
+}
+/* line 518, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .gs-no-gutter > *,
+.scoreboard .team-200 footer .gs-no-gutter > * {
+  padding-right: 0;
+}
+/* line 523, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .gs-half-gutter,
+.scoreboard .team-200 footer .gs-half-gutter {
+  margin-right: -10px;
+}
+/* line 526, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .gs-half-gutter > *,
+.scoreboard .team-200 footer .gs-half-gutter > * {
+  padding-right: 10px;
+}
+/* line 535, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 footer > div {
+  background-color: #fff3f3;
+}
+/* line 539, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 footer .bans {
+  float: right;
+}
+/* line 543, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 footer .team-marker {
+  padding-right: 0;
+  left: auto;
+  right: 0;
+}
+/* line 551, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .vs {
+  left: -10px;
+  right: auto;
+  top: 12px;
+  display: block;
+}
+/* line 559, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .team-summary > div {
+  padding-left: 0;
+  padding-right: 20px;
+}
+/* line 563, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .team-summary > div.gold {
+  padding-left: 23px;
+  padding-right: 0;
+  background-position: left 16px;
+}
+/* line 568, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .team-summary > div.kills {
+  float: left;
+  padding-left: 15px;
+  padding-right: 0;
+  text-align: left;
+  border-left: none;
+}
+/* line 576, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .team-summary .team {
+  margin-left: 0;
+  margin-right: 28px;
+  background-image: url("resources/images/normal/scoreboardicon_gem_200.png");
+}
+/* line 582, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .team-summary .game-conclusion {
+  text-align: right;
+}
+/* line 586, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .team-summary .team-marker {
+  padding-right: 0;
+  left: auto;
+  right: 0;
+}
+/* line 593, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .icon-bar {
+  border-left: 1px solid #fff;
+  border-right: 0;
+  background-color: #fff3f3;
+}
+/* line 598, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .icon-bar .champion {
+  background-position: 150px center;
+}
+/* line 603, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 header .icon-bar .team-marker {
+  padding-right: 0;
+  left: auto;
+  right: 0;
+}
+/* line 611, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player {
+  background-color: #fff3f3;
+  float: right;
+}
+/* line 615, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player.current-user {
+  background-color: #f2d7d7;
+  border-left: 4px solid #cb2124;
+  border-top: 4px solid #cb2124;
+  border-right: none;
+  border-bottom: 4px solid #cb2124;
+}
+/* line 623, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player > div {
+  float: right;
+}
+/* line 627, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player .team-marker {
+  padding-right: 0;
+  left: auto;
+  right: 0;
+}
+/* line 635, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player .champion-col > div {
+  float: right;
+}
+/* line 639, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player .champion-col > div:first-child > .champion-nameplate {
+  margin-right: 0;
+}
+/* line 643, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player .champion-col > div > .champion-nameplate {
+  margin-left: auto;
+  margin-right: 10px;
+}
+/* line 647, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player .champion-col > div > .champion-nameplate > div {
+  float: right;
+  text-align: right;
+}
+/* line 653, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player .champion-col > div > .champion-nameplate .champion-nameplate-icon span {
+  left: auto;
+  right: 14px;
+}
+/* line 660, ../../scss/sass/game/_scoreboard.scss */
+.scoreboard .team-200 .grid-list li .player .champion-col .spell-book {
+  padding-left: 0 !important;
+  padding-right: 2px !important;
+}
+
+/* line 1, ../../scss/sass/game/builds/_items.scss */
+.item-build {
+  margin-top: 20px;
+}
+
+/* line 6, ../../scss/sass/game/builds/_items.scss */
+.build-items .build-container {
+  padding-top: 20px;
+}
+
+/* line 11, ../../scss/sass/game/builds/_items.scss */
+.build-step {
+  float: left;
+  margin-top: 10px;
+}
+/* line 15, ../../scss/sass/game/builds/_items.scss */
+.build-step .connector {
+  height: 20px;
+  width: 22px;
+  float: left;
+  background-image: url("resources/images/build-connector.png");
+  margin-top: 10px;
+  margin-right: 4px;
+  margin-left: 5px;
+}
+/* line 25, ../../scss/sass/game/builds/_items.scss */
+.build-step .build-step-container {
+  float: left;
+}
+/* line 30, ../../scss/sass/game/builds/_items.scss */
+.build-step .build-step-container .build-step-items > div {
+  float: left;
+  position: relative;
+  margin-left: 2px;
+}
+/* line 35, ../../scss/sass/game/builds/_items.scss */
+.build-step .build-step-container .build-step-items > div:first-child {
+  margin-left: 0;
+}
+/* line 40, ../../scss/sass/game/builds/_items.scss */
+.build-step .build-step-container .build-step-items > div .item-icon img {
+  width: 32px;
+  height: 32px;
+}
+/* line 46, ../../scss/sass/game/builds/_items.scss */
+.build-step .build-step-container .build-step-items > div .count {
+  position: absolute;
+  right: 2px;
+  bottom: 0;
+  line-height: 1em;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 61, ../../scss/sass/game/builds/_items.scss */
+.build-step .build-step-container .build-step-items > div .build-item-item-sell .count {
+  opacity: .8;
+}
+/* line 65, ../../scss/sass/game/builds/_items.scss */
+.build-step .build-step-container .build-step-items > div .build-item-item-sell .item-icon {
+  opacity: .5;
+}
+/* line 69, ../../scss/sass/game/builds/_items.scss */
+.build-step .build-step-container .build-step-items > div .build-item-item-sell:after {
+  content: 'X';
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #C00;
+  font-size: 37px;
+}
+/* line 86, ../../scss/sass/game/builds/_items.scss */
+.build-step .build-step-container > .build-step-time {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  float: none;
+}
+
+/* line 95, ../../scss/sass/game/builds/_items.scss */
+.build-step:first-child .connector {
+  display: none;
+}
+
+/* line 1, ../../scss/sass/game/builds/_runes.scss */
+.runes {
+  margin-top: 20px;
+}
+
+/* line 5, ../../scss/sass/game/builds/_runes.scss */
+div .build-rune {
+  min-width: 190px;
+}
+/* line 12, ../../scss/sass/game/builds/_runes.scss */
+div .build-rune .build-rune-icon {
+  display: inline-block;
+}
+/* line 14, ../../scss/sass/game/builds/_runes.scss */
+div .build-rune .build-rune-icon div img {
+  height: 42px;
+  width: 42px;
+}
+
+/* line 1, ../../scss/sass/game/builds/_masteries.scss */
+.masteries {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+/* line 6, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-header h4 {
+  float: left;
+}
+/* line 10, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .img-gray {
+  display: block;
+}
+/* line 14, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tier-container {
+  padding: 10px 0;
+}
+/* line 17, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tier-container .content-border {
+  padding: 2px;
+}
+/* line 21, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tier-container .mastery-tier {
+  margin: 10px 7px 0 7px;
+}
+/* line 24, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tier-container .mastery-tier .gs-container {
+  overflow: visible;
+}
+/* line 28, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tier-container .mastery-tier:first-child {
+  margin-top: 0;
+}
+/* line 34, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-mastery-rank-container {
+  position: absolute;
+  right: 9px;
+  bottom: 3px;
+  border: 1px solid #a1a2a2;
+  color: #fff;
+  padding: 3px 5px 0 5px;
+  background-color: #262626;
+  font-size: 10px;
+  line-height: 10px;
+  z-index: 2;
+}
+/* line 47, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-available .img,
+.masteries .mastery-maxxed .img,
+.masteries .mastery-rank .img {
+  display: block;
+}
+/* line 53, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-available .img-gray,
+.masteries .mastery-maxxed .img-gray,
+.masteries .mastery-rank .img-gray {
+  display: none;
+}
+/* line 60, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-maxxed .content-border {
+  background-color: #e7ae00;
+}
+/* line 64, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-maxxed .mastery-mastery-rank-container {
+  border-color: #ffd800;
+  color: #ffd800;
+}
+/* line 70, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-available .content-border,
+.masteries .mastery-rank .content-border {
+  background-color: #3e8c00;
+}
+/* line 75, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-available .mastery-mastery-rank-container,
+.masteries .mastery-rank .mastery-mastery-rank-container {
+  border-color: #6cdf0f;
+  color: #6cdf0f;
+}
+/* line 81, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-mastery-prereq {
+  width: 9px;
+  position: absolute;
+  left: 28px;
+  background: transparent url("resources/images/mastery-arrow-sprite.jpg") repeat-y;
+  z-index: 1;
+}
+/* line 89, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-mastery-prereq-1 {
+  height: 19px;
+  top: -18px;
+}
+/* line 94, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-mastery-prereq-2 {
+  height: 90px;
+  top: -89px;
+}
+/* line 99, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-available .mastery-mastery-prereq {
+  background-position: -9px 0;
+}
+/* line 103, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-maxxed .mastery-mastery-prereq {
+  background-position: -18px 0;
+}
+/* line 107, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tooltip {
+  color: #fff;
+}
+/* line 110, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tooltip h4 {
+  color: #fff;
+}
+/* line 114, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tooltip .rank {
+  color: #6cdf0f;
+  margin-bottom: 10px;
+}
+/* line 119, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tooltip .next-rank h4 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+/* line 124, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tooltip p {
+  margin-top: 0;
+}
+/* line 128, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tooltip .requires {
+  margin-bottom: 10px;
+  color: #f00;
+}
+/* line 134, ../../scss/sass/game/builds/_masteries.scss */
+.masteries .mastery-tooltip.maxed .rank {
+  color: #fdfe04;
+}
+
+/* line 1, ../../scss/sass/game/builds/_skills.scss */
+.skill-build {
+  margin-top: 20px;
+}
+/* line 4, ../../scss/sass/game/builds/_skills.scss */
+.skill-build .skills > div:first-child .skill-progression {
+  border-top: 0;
+}
+
+/* line 9, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression {
+  clear: left;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* line 12, ../../scss/sass/_mixins.scss */
+.skill-progression:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 14, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skill-description {
+  float: left;
+  margin-right: 10px;
+  padding: 5px;
+}
+/* line 12, ../../scss/sass/_mixins.scss */
+.skill-progression .skill-description:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 20, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skill-description .skill-icon {
+  float: left;
+  margin-right: 5px;
+}
+/* line 24, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skill-description .skill-icon img {
+  width: 32px;
+}
+/* line 29, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skill-description .skill-name {
+  float: left;
+  line-height: 32px;
+  width: 165px;
+}
+/* line 35, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skill-description .long-skill-name {
+  width: 260px;
+}
+/* line 41, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skills .skill-slot {
+  float: left;
+  width: 35px;
+  height: 42px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 9px;
+}
+/* line 50, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skills .skill-slot .level {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+/* line 56, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skills .skill-slot .level .evolution-level {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+/* line 66, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skills .skill-slot .level .evolution-icon img {
+  margin-top: -2px;
+}
+/* line 72, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skills .skill-slot:first-child {
+  margin-left: 0;
+}
+/* line 77, ../../scss/sass/game/builds/_skills.scss */
+.skill-progression .skills .long-skill-slot {
+  width: 31px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* line 2, ../../scss/sass/game/graph/_common.scss */
+.graph-switcher .white-stone {
+  padding-top: 80px;
+}
+/* line 6, ../../scss/sass/game/graph/_common.scss */
+.graph-switcher .dropdown-menu {
+  min-width: 190px;
+}
+
+/* line 11, ../../scss/sass/game/graph/_common.scss */
+svg {
+  margin: -20px;
+}
+/* line 13, ../../scss/sass/game/graph/_common.scss */
+svg .smash line {
+  stroke: #000;
+}
+/* line 20, ../../scss/sass/game/graph/_common.scss */
+svg path.domain {
+  fill: none;
+}
+/* line 25, ../../scss/sass/game/graph/_common.scss */
+svg .line path {
+  stroke: #000;
+  fill: none;
+  stroke-width: 1px;
+}
+/* line 32, ../../scss/sass/game/graph/_common.scss */
+svg .axis {
+  font-size: 11px;
+}
+/* line 35, ../../scss/sass/game/graph/_common.scss */
+svg .axis line {
+  stroke: rgba(255, 255, 255, 0.5);
+  shape-rendering: crispEdges;
+}
+/* line 39, ../../scss/sass/game/graph/_common.scss */
+svg .axis text {
+  fill: #000;
+}
+/* line 42, ../../scss/sass/game/graph/_common.scss */
+svg .axis .label {
+  letter-spacing: .10em;
+  fill: #444;
+}
+/* line 48, ../../scss/sass/game/graph/_common.scss */
+svg .background {
+  fill: rgba(0, 0, 0, 0.1);
+}
+/* line 52, ../../scss/sass/game/graph/_common.scss */
+svg .team-1 {
+  fill: rgba(55, 55, 204, 0.3);
+}
+/* line 56, ../../scss/sass/game/graph/_common.scss */
+svg .team-2 {
+  fill: rgba(211, 112, 112, 0.3);
+}
+/* line 61, ../../scss/sass/game/graph/_common.scss */
+svg circle.point {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1px;
+}
+/* line 66, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1, svg circle.team-100 {
+  fill: #2747e8;
+}
+/* line 70, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.champion-kill, svg circle.team-100.champion-kill {
+  fill-opacity: .85;
+  stroke: #A8A8A8;
+  stroke-opacity: .50;
+  stroke-width: 1px;
+}
+/* line 77, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-0, svg circle.team-100.player-0 {
+  fill: #435ee8;
+}
+/* line 78, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-1, svg circle.team-100.player-1 {
+  fill: #5f75e8;
+}
+/* line 79, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-2, svg circle.team-100.player-2 {
+  fill: #7b8de8;
+}
+/* line 80, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-3, svg circle.team-100.player-3 {
+  fill: #96a4e8;
+}
+/* line 81, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-4, svg circle.team-100.player-4 {
+  fill: #a5b4ff;
+}
+/* line 82, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-5, svg circle.team-100.player-5 {
+  fill: #b5c2ff;
+}
+/* line 84, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-0.hover, svg circle.team-100.player-0.hover {
+  stroke: #435ee8;
+}
+/* line 85, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-1.hover, svg circle.team-100.player-1.hover {
+  stroke: #5f75e8;
+}
+/* line 86, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-2.hover, svg circle.team-100.player-2.hover {
+  stroke: #7b8de8;
+}
+/* line 87, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-3.hover, svg circle.team-100.player-3.hover {
+  stroke: #96a4e8;
+}
+/* line 88, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-4.hover, svg circle.team-100.player-4.hover {
+  stroke: #a5b4ff;
+}
+/* line 89, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.player-5.hover, svg circle.team-100.player-5.hover {
+  stroke: #b5c2ff;
+}
+/* line 91, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-1.hover, svg circle.team-100.hover {
+  stroke-width: 5px;
+  stroke: #2747e8;
+  fill: #fff;
+  transition: stroke-width 100ms linear;
+  -moz-transition: stroke-width 100ms linear;
+  -webkit-transition: stroke-width 100ms linear;
+}
+/* line 100, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2, svg circle.team-200 {
+  fill: #cb2124;
+}
+/* line 104, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.champion-kill, svg circle.team-200.champion-kill {
+  fill-opacity: .85;
+  stroke: #A8A8A8;
+  stroke-opacity: .50;
+  stroke-width: 1px;
+}
+/* line 111, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-0, svg circle.team-200.player-0 {
+  fill: #cb393c;
+}
+/* line 112, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-1, svg circle.team-200.player-1 {
+  fill: #cb5254;
+}
+/* line 113, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-2, svg circle.team-200.player-2 {
+  fill: #cb6a6c;
+}
+/* line 114, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-3, svg circle.team-200.player-3 {
+  fill: #cb8284;
+}
+/* line 115, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-4, svg circle.team-200.player-4 {
+  fill: #ea9697;
+}
+/* line 116, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-5, svg circle.team-200.player-5 {
+  fill: #fcb4b5;
+}
+/* line 118, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-0.hover, svg circle.team-200.player-0.hover {
+  stroke: #cb393c;
+}
+/* line 119, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-1.hover, svg circle.team-200.player-1.hover {
+  stroke: #cb5254;
+}
+/* line 120, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-2.hover, svg circle.team-200.player-2.hover {
+  stroke: #cb6a6c;
+}
+/* line 121, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-3.hover, svg circle.team-200.player-3.hover {
+  stroke: #cb8284;
+}
+/* line 122, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-4.hover, svg circle.team-200.player-4.hover {
+  stroke: #ea9697;
+}
+/* line 123, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.player-5.hover, svg circle.team-200.player-5.hover {
+  stroke: #fcb4b5;
+}
+/* line 125, ../../scss/sass/game/graph/_common.scss */
+svg circle.team-2.hover, svg circle.team-200.hover {
+  stroke-width: 5px;
+  stroke: #cb2124;
+  fill: #e9eaec;
+  transition: stroke-width 100ms linear;
+  -moz-transition: stroke-width 100ms linear;
+  -webkit-transition: stroke-width 100ms linear;
+}
+/* line 135, ../../scss/sass/game/graph/_common.scss */
+svg circle.kills {
+  stroke-width: 0px;
+}
+/* line 140, ../../scss/sass/game/graph/_common.scss */
+svg line.slider {
+  stroke: #000;
+  stroke-width: 1px;
+  stroke-dasharray: 5,5;
+  opacity: .85;
+  display: none;
+}
+
+/* line 1, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold,
+.champion-score {
+  position: relative;
+}
+/* line 5, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container,
+.champion-score .portrait-container {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+/* line 10, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container > div,
+.champion-score .portrait-container > div {
+  padding: 0 5px;
+  float: left;
+  margin-left: 5px;
+}
+/* line 12, ../../scss/sass/_mixins.scss */
+.champion-gold .portrait-container > div:after,
+.champion-score .portrait-container > div:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 16, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container > div:first-child,
+.champion-score .portrait-container > div:first-child {
+  margin-left: 0;
+}
+/* line 21, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container > div > div > .team-marker,
+.champion-score .portrait-container > div > div > .team-marker {
+  margin: 0 -5px;
+  border-width: 1px;
+  border-style: solid;
+  height: 5px;
+}
+/* line 29, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container > div > div.team-100 .team-marker,
+.champion-score .portrait-container > div > div.team-100 .team-marker {
+  background-color: #2747e8;
+  border-color: #2740c1 #2740c1 #1b3098;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+}
+/* line 37, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container > div > div.team-200 .team-marker,
+.champion-score .portrait-container > div > div.team-200 .team-marker {
+  background-color: #cb2124;
+  border-color: #a11fb0 #a11fb0 #791885;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+}
+/* line 45, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container > div > div .champions > div,
+.champion-score .portrait-container > div > div .champions > div {
+  float: left;
+}
+/* line 49, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container > div > div .champions > div:first-child .icon,
+.champion-score .portrait-container > div > div .champions > div:first-child .icon {
+  padding: 0;
+  width: 32px;
+}
+/* line 54, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container > div > div .champions > div:first-child .champion-marker,
+.champion-score .portrait-container > div > div .champions > div:first-child .champion-marker {
+  margin: 0;
+}
+/* line 64, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .icon,
+.champion-score .portrait-container .champion-portrait .icon {
+  padding: 0 0 0 5px;
+  width: 37px;
+  display: block;
+  height: 32px;
+}
+/* line 70, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .icon img,
+.champion-score .portrait-container .champion-portrait .icon img {
+  cursor: pointer;
+  width: 32px;
+}
+/* line 76, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker,
+.champion-score .portrait-container .champion-portrait .champion-marker {
+  height: 5px;
+  margin: 0 0 0 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+}
+/* line 84, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-100.champion-0,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-100.champion-0 {
+  background-color: #435ee8;
+}
+/* line 85, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-100.champion-1,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-100.champion-1 {
+  background-color: #5f75e8;
+}
+/* line 86, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-100.champion-2,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-100.champion-2 {
+  background-color: #7b8de8;
+}
+/* line 87, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-100.champion-3,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-100.champion-3 {
+  background-color: #96a4e8;
+}
+/* line 88, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-100.champion-4,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-100.champion-4 {
+  background-color: #a5b4ff;
+}
+/* line 89, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-100.champion-5,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-100.champion-5 {
+  background-color: #b5c2ff;
+}
+/* line 92, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-200.champion-0,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-200.champion-0 {
+  background-color: #cb393c;
+}
+/* line 93, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-200.champion-1,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-200.champion-1 {
+  background-color: #cb5254;
+}
+/* line 94, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-200.champion-2,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-200.champion-2 {
+  background-color: #cb6a6c;
+}
+/* line 95, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-200.champion-3,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-200.champion-3 {
+  background-color: #cb8284;
+}
+/* line 96, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-200.champion-4,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-200.champion-4 {
+  background-color: #ea9697;
+}
+/* line 97, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait .champion-marker.team-200.champion-5,
+.champion-score .portrait-container .champion-portrait .champion-marker.team-200.champion-5 {
+  background-color: #fcb4b5;
+}
+/* line 101, ../../scss/sass/game/graph/_champion-gold.scss */
+.champion-gold .portrait-container .champion-portrait.deactive,
+.champion-score .portrait-container .champion-portrait.deactive {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+
+/* line 2, ../../scss/sass/game/graph/_map.scss */
+.map .event-map {
+  height: 289px;
+}
+/* line 5, ../../scss/sass/game/graph/_map.scss */
+.map .event-map svg {
+  margin: 0;
+}
+/* line 10, ../../scss/sass/game/graph/_map.scss */
+.map .champions {
+  text-align: center;
+}
+/* line 13, ../../scss/sass/game/graph/_map.scss */
+.map .champions .team-100 {
+  padding: 3px;
+  border-left: 5px solid #2747e8;
+}
+/* line 17, ../../scss/sass/game/graph/_map.scss */
+.map .champions .team-100 img.selected {
+  border: 3px solid #2747e8;
+}
+/* line 22, ../../scss/sass/game/graph/_map.scss */
+.map .champions .team-200 {
+  padding: 3px;
+  border-left: 5px solid #cb2124;
+}
+/* line 26, ../../scss/sass/game/graph/_map.scss */
+.map .champions .team-200 img.selected {
+  border: 3px solid #cb2124;
+}
+/* line 31, ../../scss/sass/game/graph/_map.scss */
+.map .champions .champion-nameplate {
+  display: inline-block;
+}
+/* line 35, ../../scss/sass/game/graph/_map.scss */
+.map .champions img {
+  margin: 5px;
+  width: 33px;
+  border: 3px solid transparent;
+  cursor: pointer;
+}
+
+/* line 1, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph {
+  height: 80px;
+  position: absolute;
+  bottom: -80px;
+  left: 30px;
+  z-index: 999;
+}
+/* line 8, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph svg {
+  margin: 0;
+}
+/* line 12, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph .team-100-objectives-bg,
+.event-graph .team-100-kills-bg,
+.event-graph .team-200-objectives-bg,
+.event-graph .team-200-kills-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 20px;
+  z-index: -1;
+  padding-left: 3px;
+}
+/* line 24, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph .team-100-objectives-bg,
+.event-graph .team-100-kills-bg {
+  top: 0;
+  background-color: rgba(55, 55, 204, 0.3);
+  color: #2747e8;
+}
+/* line 30, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph .team-100-kills-bg {
+  top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+/* line 34, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph .team-200-objectives-bg,
+.event-graph .team-200-kills-bg {
+  top: 40px;
+  background-color: rgba(211, 112, 112, 0.3);
+  color: #cb2124;
+}
+/* line 40, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph .team-200-objectives-bg {
+  top: 60px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph .frames {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+/* line 52, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph .frames > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+/* line 60, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph .lines line {
+  stroke: rgba(255, 255, 255, 0.5);
+}
+/* line 65, ../../scss/sass/game/graph/events/_graph.scss */
+.event-graph .no-events {
+  display: none;
+}
+
+/* line 1, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip {
+  margin: -6px -6px -3px -6px;
+  background: #fff;
+}
+/* line 5, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .team-summary {
+  position: relative;
+  padding: 5px 5px 5px 8px;
+}
+/* line 9, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .team-summary .team-marker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  padding-left: 0;
+  border-width: 1px;
+  border-style: solid;
+}
+/* line 21, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .team-summary .event-champion-kill,
+.event-tip .team-summary .event-building-kill,
+.event-tip .team-summary .event-ascended,
+.event-tip .team-summary .event-capture-point {
+  padding: 2px 2px 2px 2px;
+}
+/* line 29, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .team-100 {
+  border-bottom: 1px solid #d7d7d7;
+}
+/* line 32, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .team-100 .team-marker {
+  bottom: -1px;
+  background-color: #2747e8;
+  border-color: #2740c1 #2740c1 #1b3098;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+}
+/* line 40, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .team-200 {
+  border-top: 1px solid #fff;
+}
+/* line 43, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .team-200 .team-marker {
+  top: -1px;
+  background-color: #cb2124;
+  border-color: #a11fb0 #a11fb0 #791885;
+  border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(0, 0, 0, 0.2);
+}
+/* line 51, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .killer {
+  float: left;
+}
+/* line 55, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .victim {
+  float: left;
+}
+/* line 59, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .ascended {
+  float: left;
+}
+/* line 63, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-tip .event-marker {
+  float: left;
+  padding: 0 0 0 28px;
+}
+
+/* line 69, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-champion-kill,
+.event-building-kill,
+.event-elite-monster-kill,
+.event-ascended,
+.event-capture-point {
+  line-height: 30px;
+}
+/* line 76, ../../scss/sass/game/graph/events/_tooltip.scss */
+.event-champion-kill img,
+.event-building-kill img,
+.event-elite-monster-kill img,
+.event-ascended img,
+.event-capture-point img {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 82, ../../scss/sass/game/graph/events/_tooltip.scss */
+.kill-icon {
+  float: left;
+  width: 20px;
+  background-image: url("resources/images/scoreboardicon_score.png");
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  height: 25px;
+  display: block;
+  float: left;
+  margin: 3px 5px 0px 5px;
+}
+
+/* line 1, ../../scss/sass/game/graph/_breakdown.scss */
+.chart-tip-icon {
+  display: inline-block;
+}
+
+/* line 6, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-area {
+  margin-top: -20px;
+}
+/* line 10, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-graphs {
+  padding-top: 4px;
+}
+/* line 13, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-graphs > div {
+  display: inline;
+}
+/* line 18, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item {
+  display: inline;
+}
+/* line 21, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg {
+  margin: 2px 2px 2px 12px;
+}
+/* line 24, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg text {
+  font-size: 14px;
+}
+/* line 27, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg text.label {
+  font-size: 12px;
+}
+/* line 30, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg text.label-small {
+  font-size: 10px;
+}
+/* line 35, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg path {
+  stroke: #cecece;
+  stroke-width: 1px;
+  stroke-opacity: .50;
+}
+/* line 41, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-100 {
+  fill: #2747e8;
+}
+/* line 44, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-100.player-1 {
+  fill: #a5b4ff;
+}
+/* line 46, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-100.player-2 {
+  fill: #96a4e8;
+}
+/* line 48, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-100.player-3 {
+  fill: #7b8de8;
+}
+/* line 50, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-100.player-4 {
+  fill: #5f75e8;
+}
+/* line 52, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-100.player-5 {
+  fill: #435ee8;
+}
+/* line 54, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-100.player-6 {
+  fill: #b5c2ff;
+}
+/* line 57, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-200 {
+  fill: #cb2124;
+}
+/* line 60, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-200.player-5 {
+  fill: #ea9697;
+}
+/* line 62, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-200.player-4 {
+  fill: #cb8284;
+}
+/* line 64, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-200.player-3 {
+  fill: #cb6a6c;
+}
+/* line 66, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-200.player-2 {
+  fill: #cb5254;
+}
+/* line 68, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-200.player-1 {
+  fill: #cb393c;
+}
+/* line 70, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-item svg .team-200.player-6 {
+  fill: #fcb4b5;
+}
+/* line 75, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards {
+  padding-top: 12px;
+}
+/* line 78, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .breakdown-card {
+  border: 1px solid #979797;
+  margin: 0 8px 8px 0px;
+  padding: 6px 6px;
+  background-color: #d8d8d8;
+  clear: both;
+}
+/* line 86, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .card-name {
+  margin: 0px 0px 5px 0px;
+}
+/* line 94, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .killer img,
+.match-breakdown .breakdown-cards .victim img,
+.match-breakdown .breakdown-cards .ascended img,
+.match-breakdown .breakdown-cards .stat-player img {
+  height: 45px;
+  width: 45px;
+}
+/* line 100, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .assist img {
+  height: 30px;
+  width: 30px;
+  margin: 14px 0px 0px 0px;
+}
+/* line 106, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .stat-value {
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  top: 8px;
+  margin: 0px 0px 0px 8px;
+}
+/* line 114, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .card-champion-kill,
+.match-breakdown .breakdown-cards .card-building-kill,
+.match-breakdown .breakdown-cards .card-ascended,
+.match-breakdown .breakdown-cards .card-stat {
+  text-align: center;
+}
+/* line 120, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .card-champion-kill div,
+.match-breakdown .breakdown-cards .card-building-kill div,
+.match-breakdown .breakdown-cards .card-ascended div,
+.match-breakdown .breakdown-cards .card-stat div {
+  display: inline-block;
+}
+/* line 125, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .card-champion-kill .champion-list > div,
+.match-breakdown .breakdown-cards .card-building-kill .champion-list > div,
+.match-breakdown .breakdown-cards .card-ascended .champion-list > div,
+.match-breakdown .breakdown-cards .card-stat .champion-list > div {
+  margin-left: 3px;
+}
+/* line 128, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .card-champion-kill .champion-list > div:first-child,
+.match-breakdown .breakdown-cards .card-building-kill .champion-list > div:first-child,
+.match-breakdown .breakdown-cards .card-ascended .champion-list > div:first-child,
+.match-breakdown .breakdown-cards .card-stat .champion-list > div:first-child {
+  margin-left: 0;
+}
+/* line 134, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .card-champion-kill .kill-icon,
+.match-breakdown .breakdown-cards .card-building-kill .kill-icon,
+.match-breakdown .breakdown-cards .card-ascended .kill-icon,
+.match-breakdown .breakdown-cards .card-stat .kill-icon {
+  float: none;
+  background-position: 0px bottom;
+  position: relative;
+  top: 8px;
+  margin: 3px 2px 0px 2px;
+}
+/* line 143, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .card-champion-kill.small-icons .assist img,
+.match-breakdown .breakdown-cards .card-building-kill.small-icons .assist img,
+.match-breakdown .breakdown-cards .card-ascended.small-icons .assist img,
+.match-breakdown .breakdown-cards .card-stat.small-icons .assist img {
+  height: 24px;
+  width: 24px;
+  margin: 12px 0px 0px 0px;
+}
+/* line 148, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown .breakdown-cards .card-champion-kill.small-icons .killer img,
+.match-breakdown .breakdown-cards .card-champion-kill.small-icons .victim img,
+.match-breakdown .breakdown-cards .card-building-kill.small-icons .killer img,
+.match-breakdown .breakdown-cards .card-building-kill.small-icons .victim img,
+.match-breakdown .breakdown-cards .card-ascended.small-icons .killer img,
+.match-breakdown .breakdown-cards .card-ascended.small-icons .victim img,
+.match-breakdown .breakdown-cards .card-stat.small-icons .killer img,
+.match-breakdown .breakdown-cards .card-stat.small-icons .victim img {
+  height: 35px;
+  width: 35px;
+}
+
+/* line 158, ../../scss/sass/game/graph/_breakdown.scss */
+.breakdown-tooltip img {
+  margin: 5px;
+  width: 33px;
+  border: 3px solid transparent;
+  cursor: pointer;
+}
+
+/* line 165, ../../scss/sass/game/graph/_breakdown.scss */
+.match-breakdown-area {
+  margin-top: 0 !important;
+}
+
+/* line 1, ../../scss/sass/game/_selector.scss */
+.participant-selector {
+  position: relative;
+}
+/* line 4, ../../scss/sass/game/_selector.scss */
+.participant-selector .champions {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+/* line 9, ../../scss/sass/game/_selector.scss */
+.participant-selector .champions img {
+  width: 33px;
+  border: 3px solid transparent;
+  cursor: pointer;
+}
+/* line 15, ../../scss/sass/game/_selector.scss */
+.participant-selector .champions .champion-nameplate {
+  float: left;
+  margin-left: 5px;
+}
+/* line 19, ../../scss/sass/game/_selector.scss */
+.participant-selector .champions .champion-nameplate:first-child {
+  margin-left: 0;
+}
+/* line 25, ../../scss/sass/game/_selector.scss */
+.participant-selector .team-100 {
+  float: left;
+  padding: 3px;
+  border-left: 5px solid #2747e8;
+}
+/* line 30, ../../scss/sass/game/_selector.scss */
+.participant-selector .team-100 .selected img {
+  border: 3px solid #2747e8;
+}
+/* line 34, ../../scss/sass/game/_selector.scss */
+.participant-selector .team-100 .unselected img {
+  opacity: 0.5;
+}
+/* line 39, ../../scss/sass/game/_selector.scss */
+.participant-selector .team-200 {
+  float: left;
+  padding: 3px;
+  border-left: 5px solid #cb2124;
+}
+/* line 44, ../../scss/sass/game/_selector.scss */
+.participant-selector .team-200 .selected img {
+  border: 3px solid #cb2124;
+}
+/* line 48, ../../scss/sass/game/_selector.scss */
+.participant-selector .team-200 .unselected img {
+  opacity: 0.5;
+}
+
+/* line 1, ../../scss/sass/_player-search.scss */
+#search {
+  position: absolute;
+  top: -62px;
+  right: 0;
+  z-index: 9999999;
+}
+
+/* line 9, ../../scss/sass/_player-search.scss */
+.player-search input {
+  font-size: 14px;
+  line-height: 1.4em;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  width: 130px;
+}
+
+/* line 3, ../../scss/sass/_landing.scss */
+.landing .intro p {
+  padding: 1px 20px;
+}
+/* line 8, ../../scss/sass/_landing.scss */
+.landing .intro .player-search input {
+  width: 220px;
+}
+/* line 13, ../../scss/sass/_landing.scss */
+.landing .intro a {
+  cursor: pointer;
+  cursor: hand;
+}
+/* line 18, ../../scss/sass/_landing.scss */
+.landing .intro .forward-button {
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 20px;
+  margin-left: 17px;
+}
+/* line 25, ../../scss/sass/_landing.scss */
+.landing .intro .login-button {
+  float: right;
+}
+
+/* line 12, ../../scss/sass/_mixins.scss */
+.tab-panel .tab-panel-header > div:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 6, ../../scss/sass/_tabs.scss */
+.tab-panel .tab-panel-header > div > div {
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+}
+/* line 11, ../../scss/sass/_tabs.scss */
+.tab-panel .tab-panel-header > div > div:first-child {
+  margin-left: 0;
+}
+/* line 15, ../../scss/sass/_tabs.scss */
+.tab-panel .tab-panel-header > div > div .tab {
+  background-color: #efefef;
+  font-size: 24px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  border: 2px #efefef solid;
+  color: #b7b7b7;
+  cursor: pointer;
+}
+/* line 26, ../../scss/sass/_tabs.scss */
+.tab-panel .tab-panel-header > div > div .active {
+  background-color: #fafafa;
+  color: #7b7b7b;
+  border: 2px rgba(93, 93, 93, 0.5) solid;
+}
+/* line 36, ../../scss/sass/_tabs.scss */
+.tab-panel .tab-panel-body > div {
+  padding-top: 10px;
+}
+
+/* line 2, ../../scss/sass/_locale.scss */
+html .lang-el .match-filter-context-text {
+  font-size: 12px;
+  line-height: 14px;
+}
+/* line 8, ../../scss/sass/_locale.scss */
+html .lang-el .game-summary .inventory {
+  width: 246px;
+}
+/* line 11, ../../scss/sass/_locale.scss */
+html .lang-el .game-summary .inventory .no-item {
+  height: 31px;
+  width: 31px;
+}
+/* line 17, ../../scss/sass/_locale.scss */
+html .lang-el .game-summary .mode {
+  width: 207px;
+}
+
+/* line 24, ../../scss/sass/_locale.scss */
+html .lang-pt svg .axis .label {
+  font-size: 9px;
+}
+/* line 30, ../../scss/sass/_locale.scss */
+html .lang-pt .landing .intro .forward-button {
+  font-size: 11px;
+  line-height: 11px;
+  margin-left: 11px;
+}
+
+/* line 48, ../../scss/sass/_locale.scss */
+html .lang-el .breakdown-graphs .champion-damage-urf text,
+html .lang-cs .breakdown-graphs .champion-damage-urf text,
+html .lang-de .breakdown-graphs .champion-damage-urf text,
+html .lang-es .breakdown-graphs .champion-damage-urf text,
+html .lang-hu .breakdown-graphs .champion-damage-urf text,
+html .lang-it .breakdown-graphs .champion-damage-urf text,
+html .lang-pl .breakdown-graphs .champion-damage-urf text,
+html .lang-pt .breakdown-graphs .champion-damage-urf text,
+html .lang-ru .breakdown-graphs .champion-damage-urf text {
+  display: none;
+}
+/* line 51, ../../scss/sass/_locale.scss */
+html .lang-el .breakdown-graphs .champion-damage-urf text.label,
+html .lang-cs .breakdown-graphs .champion-damage-urf text.label,
+html .lang-de .breakdown-graphs .champion-damage-urf text.label,
+html .lang-es .breakdown-graphs .champion-damage-urf text.label,
+html .lang-hu .breakdown-graphs .champion-damage-urf text.label,
+html .lang-it .breakdown-graphs .champion-damage-urf text.label,
+html .lang-pl .breakdown-graphs .champion-damage-urf text.label,
+html .lang-pt .breakdown-graphs .champion-damage-urf text.label,
+html .lang-ru .breakdown-graphs .champion-damage-urf text.label {
+  display: block;
+}
+
+/* line 30, ../../scss/sass/base.scss */
+.binding {
+  display: inline-block;
+}
+
+/* line 34, ../../scss/sass/base.scss */
+.loader {
+  padding: 8px 0;
+}
+/* line 37, ../../scss/sass/base.scss */
+.loader img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 44, ../../scss/sass/base.scss */
+#breadcrumbs {
+  padding-top: 80px;
+}
