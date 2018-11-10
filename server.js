@@ -17,20 +17,12 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'src', 'index.html'));
 });
 
-// app.get('/getData', (req, res) => {
-//     // console.log(req);
-//     let randomNum = generateRandom(30, 50);
-//     let subNum = 100 - randomNum;
-//     let num = {randomNum, subNum};
-//     res.sendFile(path.join(__dirname, 'src/js', 'test.txt'));
-// });
-
 app.get('/dataShow', function (req, res) {
     res.sendFile(path.join(__dirname, '.', 'dummy.txt'));
 });
 
 app.get('/dataGet', function(req, res){
-    res.sendFile(path.join(__dirname, '.', 'dummy.txt'));
+    res.sendFile(path.join(__dirname, '.', 'dummy2.txt'));
 });
 
 

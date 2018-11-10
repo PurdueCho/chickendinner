@@ -19,3 +19,42 @@
 .progress {
     margin: 10px;
 }
+.match_line{
+    font-size: 20px;
+}
+.team_logo {
+    width:30px;
+    margin: 10px;
+}
+
+.match_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#red #blue {
+    flex-grow: 1;
+}
+#match {
+    flex-grow: 2;
+}
+
+.view {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+.player {
+    flex-grow: 2;
+}
+.card_container {
+    width: 300px;
+    flex-grow: 1;
+    margin: 0 10px 10px 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: wrap;
+}

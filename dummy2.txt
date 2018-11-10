@@ -1,0 +1,38 @@
+{
+    "match": "2018 Spring Promotion",
+    "blueTeamTag": "S04",
+    "redTeamTag": "GIA",
+    "killLogT": [8.875, 13.926, 17.526, 23.858, 25.241, 27.875, 28.035, 30.091, 30.174, 30.185, 30.227],
+    "killLog": [
+        ["GIA Gilius", "S04 Norskeren"],
+        ["S04 Memento", "GIA Jiizuke"],
+        ["S04 Caedrel", "GIA Minitroupax"],        
+        ["GIA Ruin", "S04 Memento"],
+        ["GIA Ruin", "S04 Smittyj"],
+        ["GIA Gilius", "S04 Norskeren"],
+        ["GIA Jactroll", "S04 Smittyj"],
+        ["GIA Ruin", "S04 Memento"],
+        ["GIA Jactroll", "S04 Upset"],
+        ["GIA Minitroupax", "S04 Upset"],
+        ["GIA Jiizuke", "S04 Caedrel"]
+    ],
+    "log": [0.45483455, 0.45253208, 0.46757433, 0.46001396, 0.49391094, 0.5059267, 0.522547, 0.50920314, 0.5171159, 0.48223463, 0.45357886, 0.3751011, 0.37679383, 0.36899248, 0.38914457, 0.41183138, 0.3995633, 0.42925707, 0.5283794, 0.51898766, 0.533789, 0.515418, 0.5224066, 0.5041383, 0.50188595, 0.4363544, 0.4210899, 0.40127707, 0.32081375, 0.28764513, 0.24879551],
+    "towerLog": [
+        ["bTowers", 10.933, "BOT_LANE", "OUTER_TURRET"],
+            ["rTowers", 11.093, "TOP_LANE", "OUTER_TURRET"],
+            ["bTowers", 11.472000000000001, "BOT_LANE", "INNER_TURRET"],
+            ["bTowers", 17.194000000000003, "TOP_LANE", "OUTER_TURRET"],
+            ["rTowers", 17.252, "MID_LANE", "OUTER_TURRET"],
+            ["rTowers", 17.615, "BOT_LANE", "OUTER_TURRET"],
+            ["bTowers", 17.727, "TOP_LANE", "INNER_TURRET"],
+            ["rTowers", 17.997, "BOT_LANE", "INNER_TURRET"],
+            ["bTowers", 24.375999999999998, "MID_LANE", "OUTER_TURRET"],
+            ["bTowers", 28.366999999999997, "TOP_LANE", "BASE_TURRET"],
+            ["bInhibs", 28.483, "TOP_LANE", "INHIBITOR"],
+            ["bTowers", 28.647, "MID_LANE", "INNER_TURRET"],
+            ["bTowers", 29.99, "MID_LANE", "BASE_TURRET"],
+            ["bInhibs", 30.303, "MID_LANE", "INHIBITOR"],
+            ["bTowers", 30.553, "MID_LANE", "NEXUS_TURRET"],
+            ["bTowers", 30.619, "MID_LANE", "NEXUS_TURRET"]
+        ]
+}
